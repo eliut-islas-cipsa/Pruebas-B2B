@@ -1,0 +1,91 @@
+<html><body><h1>Logs para la compra con ID: 1470980500199-01</h1>
+<span style='color: black;'>11:27:49 - vtexOrder = 1470980500199-01</span><br>
+<span style='color: black;'>11:27:49 - status = </span><br>
+<span style='color: black;'>11:27:49 - skuId = 5559</span><br>
+<span style='color: black;'>11:27:49 - quantity = 1.000</span><br>
+<span style='color: black;'>11:27:49 - itemPrice = 656400</span><br>
+<span style='color: black;'>11:27:49 - url = https://documentosfiscalesmpower.blob.core.windows.net/vtex/0B42DE8A-FE3B-45A4-9E1E-F511FBCE28C5.zip</span><br>
+<span style='color: black;'>11:27:49 - Se va a mandar factura a vtex</span><br>
+<span style='color: black;'>11:27:50 - Se consume api de vtext http://ambientedepruebas.vtexcommercestable.com.br/api/oms/pvt/orders/1470980500199-01/invoice</span><br>
+<span style='color: black;'>11:27:50 - requestBody = {&quot;type&quot;:&quot;Output&quot;,&quot;issuanceDate&quot;:&quot;2024-10-23T06:00:00+0000&quot;,&quot;invoiceNumber&quot;:&quot;0910013167&quot;,&quot;invoiceValue&quot;:797026,&quot;invoiceUrl&quot;:&quot;https://documentosfiscalesmpower.blob.core.windows.net/vtex/0B42DE8A-FE3B-45A4-9E1E-F511FBCE28C5.zip&quot;,&quot;items&quot;:[{&quot;id&quot;:&quot;5559&quot;,&quot;price&quot;:656400,&quot;quantity&quot;:1.000}]}</span><br>
+<span style='color: black;'>11:27:50 - Estatus   = 200</span><br>
+<span style='color: black;'>11:27:50 - Se mandó factura</span><br>
+<span style='color: black;'>11:27:50 - Finaliza procesamiento de rfc ZFMVT_SEND_SDINVOICE para enviar factura a vtex</span><br>
+<span style='color: black;'>11:27:50 - </span><br>
+<span style='color: black;'>11:36:22 - Inicia controller de ordenes</span><br>
+<span style='color: black;'>11:36:22 - request = org.apache.catalina.connector.RequestFacade@64a79275</span><br>
+<span style='color: black;'>11:36:22 - params = [:]</span><br>
+<span style='color: black;'>11:36:22 - request.JSON = [Origin:[Account:ambientedepruebas, Key:vtexappkey-ambientedepruebas-SJIDUI], LastState:window-to-cancel, State:ready-for-handling, LastChange:2024-10-23T17:36:17.2224268Z, Domain:Fulfillment, OrderId:1471210500239-01, CurrentChange:2024-10-23T17:36:17.2828684Z]</span><br>
+<span style='color: black;'>11:36:22 - Se recibe peticion para crear orden con idVtex 1471210500239-01</span><br>
+<span style='color: black;'>11:36:24 - Se consume api de vtext http://ambientedepruebas.vtexcommercestable.com.br/api/oms/pvt/orders/1471210500239-01</span><br>
+<span style='color: black;'>11:36:24 - Estatus   = 200</span><br>
+<span style='color: black;'>11:36:24 - Se consume api de vtext http://ambientedepruebas.vtexcommercestable.com.br/api/dataentities/FE/search?_fields=_all&amp;_where=id=1471210500239-01</span><br>
+<span style='color: black;'>11:36:24 - Estatus   = 200</span><br>
+<span style='color: black;'>11:36:24 - sePuedeMandarOrdenASap?</span><br>
+<span style='color: black;'>11:36:24 - validDate = Tue Mar 01 00:00:00 CST 2022</span><br>
+<span style='color: black;'>11:36:24 - creationDate = Wed Oct 23 17:18:54 CST 2024</span><br>
+<span style='color: black;'>11:36:24 - Inicia envio de orden 1471210500239-01 a SAP</span><br>
+<span style='color: black;'>11:36:24 - IV_SOCIEDAD = P302</span><br>
+<span style='color: black;'>11:36:24 - </span><br>
+<span style='color: black;'>11:36:24 - Se consume api de vtext http://ambientedepruebas.vtexcommercestable.com.br/api/dataentities/b2b_users/search?_fields=_all&amp;_where=(email=michel.delarosa+17@experimentality.co)&amp;_schema=v0.1.2</span><br>
+<span style='color: black;'>11:36:24 - Estatus   = 200</span><br>
+<span style='color: green;'>11:36:24 - Valores structure ZVTEX_PEDIDO_H</span><br>
+<span style='color: green;'>11:36:24 - ORDEN_ID - 1471210500239-01</span><br>
+<span style='color: green;'>11:36:24 - FECHA_ORDEN - 2024-10-23</span><br>
+<span style='color: green;'>11:36:24 - CLIENTE_VTEX - 60cbee07-9162-11ef-b37f-8c96bc9ec72f</span><br>
+<span style='color: green;'>11:36:24 - PURCH_NO_C - 1471210500239-01</span><br>
+<span style='color: green;'>11:36:24 - PURCH_DATE - 2024-10-23</span><br>
+<span style='color: green;'>11:36:24 - FIX_VAL_DY - 2024-10-23</span><br>
+<span style='color: green;'>11:36:24 - ASS_NUMBER - 1471210500239-01</span><br>
+<span style='color: green;'>11:36:24 - CURRENCY - MXN</span><br>
+<span style='color: green;'>11:36:24 - PMNTTRMS - D000</span><br>
+<span style='color: green;'>11:36:24 - VIA_PAGO_VTEX - 742</span><br>
+<span style='color: green;'>11:36:24 - PYMT_METH - 742</span><br>
+<span style='color: green;'>11:36:24 - REQ_DATE_H - 2024-10-30</span><br>
+<span style='color: green;'>11:36:24 - COND_VALUE_T - 480</span><br>
+<span style='color: green;'>11:36:24 - ID_PAGO_VTEX - 3408434E23714A14A56252132EF89C3A</span><br>
+<span style='color: green;'>11:36:24 - PAGO_SIS - 742</span><br>
+<span style='color: green;'>11:36:24 - PAGO_TID - 587021075Y8828422</span><br>
+<span style='color: green;'>11:36:24 - PAGO_AUT - 587021075Y8828422</span><br>
+<span style='color: green;'>11:36:24 - USO_CFDI - </span><br>
+<span style='color: green;'>11:36:24 - GRUPO_VENDEDOR - P02</span><br>
+<span style='color: green;'>11:36:24 - </span><br>
+<span style='color: blue;'>11:36:24 - Valores table ZVTEX_PEDIDO_I</span><br>
+<span style='color: blue;'>11:36:24 - MATERIAL_VTEX - 93</span><br>
+<span style='color: blue;'>11:36:24 - ALMACEN_VTEX - 1e4fe2a</span><br>
+<span style='color: blue;'>11:36:24 - TARGET_QTY - 1</span><br>
+<span style='color: blue;'>11:36:24 - TARGET_QU - </span><br>
+<span style='color: blue;'>11:36:24 - COND_VALUE - 3719</span><br>
+<span style='color: blue;'>11:36:24 - COND_VALUE_D - 0</span><br>
+<span style='color: blue;'>11:36:24 - IVA - 59504</span><br>
+<span style='color: blue;'>11:36:24 - </span><br>
+<span style='color: black;'>11:36:24 - Valores table ZVT_PARTNERS</span><br>
+<span style='color: purple;'>11:36:24 - IDCTEVTEX - 60cbee07-9162-11ef-b37f-8c96bc9ec72f</span><br>
+<span style='color: purple;'>11:36:24 - PARTN_ROLE - SO</span><br>
+<span style='color: purple;'>11:36:24 - DISTRICT - </span><br>
+<span style='color: purple;'>11:36:24 - CITY - </span><br>
+<span style='color: purple;'>11:36:24 - POSTL_CODE - </span><br>
+<span style='color: purple;'>11:36:24 - PAIS_VTEX - </span><br>
+<span style='color: purple;'>11:36:24 - ESTADO_VTEX - </span><br>
+<span style='color: purple;'>11:36:24 - E_MAIL - </span><br>
+<span style='color: purple;'>11:36:24 - TAXJURCODE - </span><br>
+<span style='color: purple;'>11:36:24 - STREET_NO - </span><br>
+<span style='color: purple;'>11:36:24 - HOME_CITY - </span><br>
+<span style='color: purple;'>11:36:24 - REGIOGROUP - </span><br>
+<span style='color: purple;'>11:36:24 - NAME_4 - </span><br>
+<span style='color: cyan;'>11:36:24 - IDCTEVTEX - 60cbee07-9162-11ef-b37f-8c96bc9ec72f</span><br>
+<span style='color: cyan;'>11:36:24 - PARTN_ROLE - DM</span><br>
+<span style='color: cyan;'>11:36:24 - NAME - MICHEL MPOWER 17</span><br>
+<span style='color: cyan;'>11:36:24 - STREET - San Juan 15</span><br>
+<span style='color: cyan;'>11:36:24 - PAIS_VTEX - MEX</span><br>
+<span style='color: cyan;'>11:36:24 - POSTL_CODE - 78920</span><br>
+<span style='color: cyan;'>11:36:24 - CITY - VENADO</span><br>
+<span style='color: cyan;'>11:36:24 - ESTADO_VTEX - SAN LUIS POTOSÍ</span><br>
+<span style='color: cyan;'>11:36:24 - TELEPHONE - +522229139291</span><br>
+<span style='color: cyan;'>11:36:24 - E_MAIL - michel.delarosa+17@experimentality.co</span><br>
+<span style='color: cyan;'>11:36:24 - </span><br>
+<span style='color: black;'>11:36:24 - Se ejecuta RFC ZRFCSD_CREAR_PEDIDO</span><br>
+<span style='color: black;'>11:36:25 - EV_PEDIDO - 0009012669</span><br>
+<span style='color: black;'>11:36:25 - El pedido se creo exitosamente en sap</span><br>
+<span style='color: black;'>11:36:25 - Se termina peticion para crear orden con idVtex 1471210500239-01</span><br>
+</body></html>
